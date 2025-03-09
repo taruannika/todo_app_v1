@@ -4,11 +4,11 @@ import { GoSun, GoMoon } from "react-icons/go";
 import { useHomeContext } from "../pages/Home";
 
 const Navbar = () => {
-  const { isDarkMode, toggleTheme } = useHomeContext();
+  const { isDarkMode, toggleTheme, toggleSidebar } = useHomeContext();
   return (
     <Wrapper>
       <div className="content">
-        <button className="toggle-btn">
+        <button onClick={toggleSidebar} className="toggle-btn">
           <BiMenuAltLeft className="icon" />
         </button>
 

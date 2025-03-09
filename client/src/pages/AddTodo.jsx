@@ -1,5 +1,5 @@
 const AddTodo = () => {
-  return <div>AddTodo</div>;
+  return <div></div>;
 };
 
 export default AddTodo;
