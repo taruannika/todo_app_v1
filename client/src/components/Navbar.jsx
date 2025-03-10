@@ -28,8 +28,6 @@ const Navbar = () => {
               <p>Dark</p>
             </div>
           )}
-
-          {/* {isDarkMode ? <GoSun className="theme-icon" /> : <GoMoon />} */}
         </button>
       </div>
     </Wrapper>
