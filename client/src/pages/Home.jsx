@@ -37,8 +37,8 @@ const Home = () => {
     >
       <Wrapper>
         <main className="home">
-          <BigSidebar />
-          <SmallSidebar />
+          <BigSidebar isSmallScreen={false} />
+          <SmallSidebar isSmallScreen={true} />
           <div>
             <Navbar />
             <div className="page">

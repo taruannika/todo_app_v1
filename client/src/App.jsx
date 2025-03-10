@@ -16,6 +16,18 @@ const router = createBrowserRouter([
         element: <AllTodos />,
       },
       {
+        path: "complited-todos",
+        element: <div>Complited</div>,
+      },
+      {
+        path: "important-todos",
+        element: <div>Important</div>,
+      },
+      {
+        path: "due-dates",
+        element: <div>Due Dates</div>,
+      },
+      {
         path: "stats",
         element: <Stats />,
       },

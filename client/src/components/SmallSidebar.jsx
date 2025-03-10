@@ -3,7 +3,7 @@ import Wrapper from "../Wrappers/SmallSidebar";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import NavLinks from "./NavLinks";
 
-const SmallSidebar = () => {
+const SmallSidebar = ({ isSmallScreen }) => {
   const { isSidebarOpen, toggleSidebar } = useHomeContext();
   return (
     <Wrapper>
@@ -15,7 +15,7 @@ const SmallSidebar = () => {
           <header>
             <h2>Todo App</h2>
           </header>
-          <NavLinks />
+          <NavLinks isSmallScreen={isSmallScreen} />
         </div>
       </div>
     </Wrapper>
